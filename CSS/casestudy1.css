@@ -1,23 +1,20 @@
-.page1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
+/* Controls */
 .carousel-control-prev{
     height: 50px;
-    width: 100px;
+    width: 50px;
     top: 40%;
-    left: 1%;
+    left: 10%;
+    background-color: black;
 }
 
 .carousel-control-next{
     height: 50px;
-    width: 100px;
+    width: 50px;
     top: 40%;
-    right: 1%;
+    right: 10%;
+    background-color: black;
 }
+
 .casestudyIntro{
     display: flex;
     flex-direction: column;
@@ -25,6 +22,29 @@
     justify-content: center;
 }
 
-.introImage{
-    size-adjust: auto;
+.casestudyText{
+    font-size: 28px;
+    text-justify:inter-word;
 }
+.italics{
+    font-style: italic;
+}
+.slidePicture{
+    margin:auto;
+    min-height: 500px;
+    max-height: 700px;
+}
+.slidePicture2{
+    margin: auto;
+    min-height: 500px;
+    max-height: 700px;
+}
+.slideText2{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
