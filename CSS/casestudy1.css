@@ -1,0 +1,30 @@
+.page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev{
+    height: 50px;
+    width: 100px;
+    top: 40%;
+    left: 1%;
+}
+
+.carousel-control-next{
+    height: 50px;
+    width: 100px;
+    top: 40%;
+    right: 1%;
+}
+.casestudyIntro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introImage{
+    size-adjust: auto;
+}

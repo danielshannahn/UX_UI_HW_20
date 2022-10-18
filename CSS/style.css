@@ -1,0 +1,72 @@
+/* This is for Navigation and Footer Purposes */
+body {
+    background: linear-gradient(180deg, #4B4A37 10.42%, rgba(121, 120, 105, 0.81) 60.94%, rgba(171, 176, 162, 0) 100%);    
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:center !important;
+    align-items: center !important;
+}
+
+.navigation {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top:30px
+}
+
+.inline{
+    display: inline;
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: white;
+}
+.inline:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+.logo {
+    width: 110px;
+    padding: 1%;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+.socialFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15%;
+    margin: auto;
+
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  @media(max-width: 1482px){
+    .socialFooter{
+        width: 25%
+    }
+  }
