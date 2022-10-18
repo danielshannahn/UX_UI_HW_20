@@ -5,6 +5,7 @@
     top: 40%;
     left: 10%;
     background-color: black;
+
 }
 
 .carousel-control-next{
@@ -13,8 +14,13 @@
     top: 40%;
     right: 10%;
     background-color: black;
+ 
 }
+.carousel-item{
+    max-height: 700px;
 
+}
+/* first slide */
 .casestudyIntro{
     display: flex;
     flex-direction: column;
@@ -31,14 +37,9 @@
 }
 .slidePicture{
     margin:auto;
-    min-height: 500px;
-    max-height: 700px;
+    max-height: 500px;
 }
-.slidePicture2{
-    margin: auto;
-    min-height: 500px;
-    max-height: 700px;
-}
+/* second slide */
 .slideText2{
     display: flex;
     justify-content: center;
@@ -47,4 +48,12 @@
     width: 50%;
     margin: auto;
 }
-
+/* third slide */
+.slideText3{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
