@@ -57,3 +57,22 @@
     width: 50%;
     margin: auto;
 }
+
+/* fourth slide */
+.slideText4{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+/* Fifth Slide */
+.slideText5{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
