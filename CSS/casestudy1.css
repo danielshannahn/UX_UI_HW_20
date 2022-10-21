@@ -1,10 +1,11 @@
 /* Controls */
 .carousel-control-prev{
-    height: 50px !important;
-    width: 50px !important;
-    top: 40% !important;
-    left: 10% !important;
-    background-color: black !important;
+    height: 50px;
+    width: 50px;
+    top: 40%;
+    left: 10%;
+    background-color: black;
+    z-index: 0;
 
 }
 
@@ -14,11 +15,11 @@
     top: 40%;
     right: 10%;
     background-color: black;
+    z-index: 0;
  
 }
 .carousel-item{
     max-height: 700px;
-
 }
 /* first slide */
 .casestudyIntro{
@@ -76,3 +77,4 @@
     width: 50%;
     margin: auto;
 }
+

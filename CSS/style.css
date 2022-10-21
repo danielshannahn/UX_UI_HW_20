@@ -105,7 +105,7 @@ a{
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
   }
-
+  /* mobile */
   @media(max-width:1160px){
     .hamburger-lines{
         display: block;
@@ -122,11 +122,35 @@ a{
     nav{
         display: none;
     }
+    .navigation{
+      margin-bottom: 0;
+    }
+    .hamburgerRow{
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    width:102%;
+    z-index: 1;
+    }
+    .inlineHam{
+      margin: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: bold;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 49px;
+      color: white;
+      list-style: none;
+      text-align: center;
+    }
   }
 
   @media(min-width:1161px){
     .hamburger-lines{
         display: none;
     }
+    .hamburgerRow{
+      display: none;
+    }
   }
-
