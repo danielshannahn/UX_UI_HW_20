@@ -1,10 +1,10 @@
 /* Controls */
 .carousel-control-prev{
-    height: 50px;
-    width: 50px;
-    top: 40%;
-    left: 10%;
-    background-color: black;
+    height: 50px !important;
+    width: 50px !important;
+    top: 40% !important;
+    left: 10% !important;
+    background-color: black !important;
 
 }
 
