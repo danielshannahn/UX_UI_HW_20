@@ -10,6 +10,7 @@
     min-height: 500px;
     font-size: 38px;
     margin-left: 13%;
+    color: black;
 }
 .Blog{
         font-family: 'Montserrat', sans-serif;
@@ -22,4 +23,9 @@
 }
 h2{
     font-size: 40px !important;
+}
+.onedoesNOT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
